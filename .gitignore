@@ -1,0 +1,81 @@
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Node ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Flask ---
+instance/
+*.db
+*.sqlite3
+*.pyc
+
+# --- Whisper / ML Models ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+whisper_cache/
+*.npz
+*.npy
+models/
+weights/
+
+# --- Testing / Coverage ---
+coverage/
+htmlcov/
+*.cover
+*.coverage
+.cache/
+pytest_cache/
+nosetests.xml
+test-results/
+junit-*.xml
+
+# --- Editor Directories and Files ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- System Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Misc ---
+*.bak
+*.tmp
+*.swp
+*.swo
