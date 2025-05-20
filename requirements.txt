@@ -1,0 +1,4 @@
+whisper
+torch>=1.12.0
+torchaudio>=0.12.0
+ffmpeg-python
