@@ -1,0 +1,25 @@
+.tiles{
+    height: 150px;
+    width: 150px;
+    padding: auto;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+.tiles-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tiles:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
