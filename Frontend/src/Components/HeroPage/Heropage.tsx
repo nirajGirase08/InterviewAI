@@ -1,7 +1,10 @@
-import React from "react";
 import "./Heropage.css";
-
+import { useNavigate } from 'react-router-dom';
 const Heropage = () => {
+  const navigate = useNavigate();
+  const goToTiles = () => {
+    navigate("/tiles");
+  };
   return (
     <>
       <nav className="navbar bg-body-tertiary">
@@ -51,7 +54,7 @@ const Heropage = () => {
         </p>
       </div>
       <div className="uploadBtnContainer">
-        <button type="button" className="uploadBtn">
+        <button type="button" className="uploadBtn" onClick={goToTiles}>
           Upload
         </button>
       </div>
